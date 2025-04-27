@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Details</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th, td {
+            text-align: left;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td class="bold">Order no:</td>
+        <td>#ABC001</td>
+    </tr>
+    <tr>
+        <td class="bold">Order Date:</td>
+        <td>23-Mar-2016</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="bold" style="text-align:center;">Customer</td>
+    </tr>
+    <tr>
+        <td class="bold">Name:</td>
+        <td>John Papas</td>
+    </tr>
+    <tr>
+        <td class="bold">Address:</td>
+        <td>Independence Day 5th str, 11511</td>
+    </tr>
+    <tr>
+        <td class="bold" rowspan="5">TCB</td>
+        <td class="bold" style="text-align:center;">Order Details</td>
+    </tr>
+    <tr>
+        <td>
+            <table style="width:100%;">
+                <tr>
+                    <th>1</th>
+                    <td>Of Mice and Men</td>
+                    <td>Book</td>
+                    <td>10.00€</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Les Miserables</td>
+                    <td>Book</td>
+                    <td>12.00€</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Game of Thrones - S01</td>
+                    <td>DVD</td>
+                    <td>50.00€</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>Samsung Galaxy</td>
+                    <td>Mobile Phone</td>
+                    <td>200.00€</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="bold" style="text-align:right;">Total:</td>
+                    <td>272.00€</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

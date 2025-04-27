@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Invoice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .invoice-box {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #eee;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    .no-border {
+      border: none;
+    }
+    .summary {
+      text-align: right;
+    }
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<div class="invoice-box">
+  <h2 style="color: gray;">Job Invoice</h2>
+  <p><strong>Company name</strong><br>
+  address<br>
+  city, state ZIP<br>
+  Phone, fax<br>
+  email, website, company#</p>
+
+  <p><strong>Bill To:</strong><br>
+  #( )<br>
+  Name<br>
+  Address<br>
+  City, ST ZIP<br>
+  Country<br>
+  Phone</p>
+
+  <p><strong>Date:</strong> _____________<br>
+  <strong>Invoice #:</strong> _____________</p>
+
+  <table>
+    <tr>
+      <th>Start date</th>
+      <th>Finish date</th>
+      <th>Job address</th>
+      <th>Client name</th>
+    </tr>
+    <tr><td colspan="4">&nbsp;</td></tr>
+  </table>
+
+  <br>
+
+  <table>
+    <tr>
+      <th>Item ID</th>
+      <th>Description</th>
+      <th>Quantity</th>
+      <th>Unit Price</th>
+      <th>Line Total</th>
+    </tr>
+    <!-- Add more rows as needed -->
+    <tr><td colspan="5">&nbsp;</td></tr>
+    <tr><td colspan="5">&nbsp;</td></tr>
+    <tr><td colspan="5">&nbsp;</td></tr>
+    <tr><td colspan="5">&nbsp;</td></tr>
+  </table>
+
+  <br>
+
+  <table>
+    <tr class="no-border">
+      <td class="no-border" colspan="4" class="summary">SUBTOTAL</td>
+      <td>-</td>
+    </tr>
+    <tr class="no-border">
+      <td class="no-border" colspan="4" class="summary">EXTRAS</td>
+      <td>-</td>
+    </tr>
+    <tr class="no-border">
+      <td class="no-border" colspan="4" class="summary"><strong>TOTAL</strong></td>
+      <td>-</td>
+    </tr>
+    <tr class="no-border">
+      <td class="no-border" colspan="4" class="summary">PAID</td>
+      <td>-</td>
+    </tr>
+    <tr class="no-border">
+      <td class="no-border" colspan="4" class="summary"><strong>TOTAL DUE</strong></td>
+      <td>-</td>
+    </tr>
+  </table>
+
+  <div class="footer">THANK YOU FOR YOUR BUSINESS!</div>
+</div>
+
+</body>
+</html>

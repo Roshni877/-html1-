@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Employee Details Form</title>
+    <style>
+        label {
+            display: block;
+            margin: 8px 0 4px;
+        }
+        input[type="text"], input[type="email"], input[type="date"], select {
+            width: 300px;
+        }
+        .section {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>New Employee Details Form</h2>
+
+<form>
+    <div class="section">
+        <h3>Personal Details</h3>
+        <label>Title:
+            <select>
+                <option>Mr</option>
+                <option>Ms</option>
+                <option>Mrs</option>
+                <option>Dr</option>
+            </select>
+        </label>
+        <label>First Name: <input type="text" required></label>
+        <label>Middle Name: <input type="text"></label>
+        <label>Surname: <input type="text" required></label>
+        <label>Gender:
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </label>
+        <label>Birth Date: <input type="date"></label>
+        <label>Street Address: <input type="text" required></label>
+        <label>Street Address Line 2: <input type="text"></label>
+        <label>Suburb: <input type="text"></label>
+        <label>State: <input type="text"></label>
+        <label>Postcode: <input type="text"></label>
+        <label>Home Phone: <input type="text"></label>
+        <label>Mobile Phone: <input type="text"></label>
+        <label>Email Address: <input type="email"></label>
+        <label>Are you an Australian?
+            <input type="radio" name="australian"> Yes
+            <input type="radio" name="australian"> No
+        </label>
+        <label>Do you have a working visa?
+            <input type="radio" name="visa"> Yes
+            <input type="radio" name="visa"> No
+        </label>
+    </div>
+
+    <div class="section">
+        <h3>Employment Details</h3>
+        <label>Job Title: <input type="text"></label>
+        <label>Commencement Date: <input type="date"></label>
+        <label>File Tax Number: <input type="text"></label>
+        <label>Employment Status:
+            <input type="radio" name="status"> Full Time
+            <input type="radio" name="status"> Part Time
+            <input type="radio" name="status"> Temporary
+            <input type="radio" name="status"> Casual
+        </label>
+    </div>
+
+    <div class="section">
+        <h3>Emergency Contact Details</h3>
+        <label>Title:
+            <select>
+                <option>Mr</option>
+                <option>Ms</option>
+                <option>Mrs</option>
+                <option>Dr</option>
+            </select>
+        </label>
+        <label>First Name: <input type="text" required></label>
+        <label>Middle Name: <input type="text"></label>
+        <label>Surname: <input type="text" required></label>
+        <label>Relationship: <input type="text"></label>
+        <label>Home Phone: <input type="text"></label>
+        <label>Mobile Phone: <input type="text"></label>
+        <label>Email Address: <input type="email"></label>
+    </div>
+
+    <div class="section">
+        <h3>Banking Details</h3>
+        <label>Bank Name: <input type="text"></label>
+        <label>Bank Branch: <input type="text"></label>
+        <label>Account Name: <input type="text"></label>
+        <label>Account Number: <input type="text"></label>
+        <label>BSB Number: <input type="text"></label>
+    </div>
+
+    <div class="section">
+        <h3>Employee Signature</h3>
+        <label>Signature: <input type="text" placeholder="Print your name here"></label>
+        <label>Date: <input type="date"></label>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
